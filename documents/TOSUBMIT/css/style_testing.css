@@ -1,0 +1,370 @@
+/*Overall Styling */
+
+
+ul {
+    list-style-type: none;
+}
+img {
+	max-width: 100%;
+}
+.imagetext,
+.header {
+    color: #2f4f4f;
+}
+
+.thanks { 
+    display: flex; 
+    justify-content: center; 
+    margin-bottom: 2em;
+}
+
+.blog-list {
+    color: #2f4f4f;
+}
+
+.prize {
+    color: #2f4f4f;
+    margin-top: 2em;
+}
+.imagetext { 
+    display: flex; 
+    justify-content: center; 
+}
+/*
+.mom,
+.dad {
+    height="100" width="100";
+}
+*/
+
+
+
+/*Main-Nav Styling FLEXBOX*/
+
+@media (min-width: 769px) {
+    .header,
+	.main-nav {
+        display: flex;
+    }
+
+	.header {
+		flex-direction: column;
+		align-items: center;
+    }
+
+    .main-nav a {
+        font-size: .85em;
+        padding: 5px 5px;
+        }
+
+}
+
+@media (min-width: 1025px) {
+    
+    
+    .header {
+		flex-direction: row;
+		justify-content: space-between;
+    }
+}
+ 
+
+/*Main-Nav Styling BASE*/
+.name,
+.main-nav a {
+	text-align: center;
+	display: block;
+	
+}
+.name {
+	font-size: 1.20em;
+    margin: 0;
+}
+.main-nav a {
+        font-size: .85em;
+        }
+
+.main-nav {
+    padding-left: 0;
+}
+
+/*Title/Title Picture Styling */
+.ttp {
+    text-align: center;
+	background: lightblue;
+    
+}
+
+.span-img {
+    height: 300px;
+    width: 300px;
+    border-radius: 245px;
+    margin-top: 2em;
+}
+.title {
+    margin-bottom: 0;
+    color: #2f4f4f;
+    font-size: 1.9em;  
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.ttp h3 {
+    color: darkslategray;
+    font-size: 1.5em;  
+    padding-bottom: 1em;     
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+/*About Styling */
+
+.about {
+    margin-left: 2em;
+    margin-right: 2em;
+    color: darkslategrey;
+}
+/*parent picture styling media query*/
+
+@media (min-width: 600px) {
+.parents-images {
+    display: flex;
+    margin-top: 50px;
+    
+}
+  
+  .momadad {
+    flex: 1;
+}
+
+.momadad {
+    padding-left: 5em;
+    padding-right: 5em;
+}
+.M1,
+.D1 {
+height: 150px;
+width: 150px;
+}
+
+}
+
+/*parent picture base styling*/
+.parents-images {
+    margin-top: 50px;
+
+    text-align: center;
+}
+
+
+
+
+/*Individuals with pictures Styling */
+
+.parents-images img {   
+    border-radius: 85;
+    
+  }
+
+  .kids-images img {   
+    border-radius: 85;
+  }
+
+  
+
+/*changing two 'parent' images to be side by side*/
+
+
+
+
+/*changing four 'kids' images to be side by side*/
+
+@media (min-width: 1025px) {
+.kids-images {
+    display: flex;
+    
+    
+}
+  
+  .bobby,
+  .brown {
+    flex: 1;
+
+}
+/*
+.brown {
+    padding-right: 5em;
+}
+*/
+/*
+.fourcol img {
+    padding-left: 50%;
+    padding-right: 50%;
+}
+*/
+
+.lincoln {
+    padding-left: 20px;
+    padding-right: 5px;
+}
+
+.margaret {
+    padding-left: 5px;
+    padding-right: 20px;
+}
+
+}
+
+@media (min-width: 769px) {
+    .bobby {
+        display: flex;
+        margin-top: 2em;
+    }
+    .brown {
+        display: flex;
+        margin-top: 2em;
+    }  
+      .fourcol {
+        flex: 1;
+    }
+    /*
+    .fourcol img {
+        padding-left: 50%;
+        padding-right: 50%;
+    }
+    */
+}
+.allimages {
+    background-color: lightblue;
+    padding-top: 1em;
+    padding-bottom: 2em;
+}
+
+.allimages img {
+    width:200px;
+    height: auto;
+}
+
+
+
+/*base styling for kids images*/
+
+.kids-images {
+    margin-top: 2em;
+    text-align: center;
+}
+
+.fourcol {
+    padding-top: 2em;
+}
+
+/*Blog Stories Aside Styling 
+.blog_aside {
+    border: solid;
+    border-width: 1px;
+    background-color: lightgrey;
+    border-radius: 25;  
+    margin-top: 5em;
+    }
+*/
+
+.blog-list {
+    border-style: double;
+    border-color: darkslategrey;
+    border-radius: 25px;
+    margin-top: 2em;
+    
+}
+
+.blog-list h3 {
+    text-align: center;
+}
+
+.blog-list ul {
+    text-align: center;
+}
+
+.blogul {
+    padding-left: 0;
+}
+
+/*
+.blog-list h3,
+.blog-list ul{
+    margin-left: 1em;
+}
+*/
+
+
+/*making the footer*/
+
+
+
+  .footer {
+    background-color: lightblue;
+    
+    color: #2f4f4f;
+}
+  
+/* taking out to test footer media query 
+.links li {
+    
+    padding: 10px 15px;
+}
+
+.links {
+
+    margin-right: 2em;
+}
+.copyright {
+    margin-left: 2em;
+}
+*/
+
+
+
+
+@media (min-width: 769px) {
+    .footer,
+	.links {
+		display: flex;
+    }
+
+	.footer {
+		flex-direction: column;
+		align-items: center;
+    }
+    .links a {
+        padding: 10px 15px;
+    }
+}
+
+@media (min-width: 1025px) {
+    
+    
+    .footer {
+		flex-direction: row;
+		justify-content: space-between;
+    }
+    .links a {
+        padding: 10px 15px;
+    }
+}
+
+*/
+/*Main-Nav Styling BASE*/
+
+.copyright {
+	font-size: 1.20em;
+    margin: 0;
+}
+.links a {
+        font-size: .85em;
+}
+   
+.copyright,
+.links a {
+    text-align: center;
+    display: block;
+    padding: 10px 15px;
+}

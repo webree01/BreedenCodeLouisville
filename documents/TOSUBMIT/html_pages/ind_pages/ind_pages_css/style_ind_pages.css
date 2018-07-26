@@ -1,0 +1,250 @@
+/*Overall Styling */
+
+ul {
+    list-style-type: none;
+}
+img {
+	max-width: 100%;
+}
+.header {
+    color: #2f4f4f;
+}
+
+.imagetext { 
+    display: flex; 
+    justify-content: center; 
+}
+
+/*Main-Nav Styling FLEXBOX*/
+
+@media (min-width: 769px) {
+    .header,
+	.main-nav {
+		display: flex;
+    }
+
+	.header {
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
+@media (min-width: 1025px) {
+    
+    .header {
+		flex-direction: row;
+		justify-content: space-between;
+    }
+}
+
+
+/*Main-Nav Styling BASE*/
+.name,
+.main-nav a {
+	text-align: center;
+	display: block;
+	
+}
+.name {
+	font-size: 1.20em;
+    margin: 0;
+}
+.main-nav a {
+        font-size: .85em;
+}
+/*Title/Title Picture Styling */
+.ttp {
+    text-align: center;
+	background: lightblue;
+}
+
+.span-img {
+    height: 300px;
+    width: 300px;
+    border-radius: 245px;
+    margin-top: 2em;
+}
+
+.title {
+    margin-bottom: 0;
+    color: #2f4f4f;
+    font-size: 1.9em;  
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.ttp h3 {
+    color: darkslategray;
+    font-size: 1.5em;  
+    padding-bottom: 1em;     
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+/*About Styling */
+
+.about {
+    margin-left: 2em;
+    margin-right: 2em;
+    color: darkslategrey;
+}
+
+/*Individuals with pictures Styling */
+
+.parents-images img {   
+    border-radius: 85;
+}
+
+.kids-images img {   
+    border-radius: 85;
+}
+
+/*changing four 'kids' images to be side by side*/
+
+@media (min-width: 1025px) {
+    .kids-images {
+        display: flex;
+        margin-right: 2em;
+    }
+    
+    .bobby,
+    .brown {
+        flex: 1;
+    }
+
+    .brown {
+        padding-right: 5em;
+    }
+
+
+    .lincoln {
+        padding-left: 20px;
+        padding-right: 5px;
+    }
+
+    .margaret {
+        padding-left: 5px;
+        padding-right: 20px;
+    }
+
+}
+
+@media (min-width: 769px) {
+    .bobby {
+        display: flex;
+        margin-right: 2em;
+        margin-top: 2em;
+    }
+    .brown {
+        display: flex;
+        margin-right: 2em;
+        margin-top: 2em;
+    }  
+    .fourcol {
+        flex: 1;
+    }
+    
+    .fourcol img {
+        padding-left: 50%;
+        padding-right: 50%;
+    }
+}
+
+.allimages {
+    background-color: lightblue;
+    padding-top: 1em;
+    padding-bottom: 2em;
+}
+
+.allimages img {
+    width:200px;
+    height: auto;
+}
+
+/*base styling for top two images*/
+
+.kids-images {
+    margin-right: 2em;
+    margin-top: 2em;
+    text-align: center;
+}
+
+.fourcol {
+    padding-top: 2em;
+}
+
+/*base styling for last two images*/
+
+.kids-images {
+    margin-right: 2em;
+    margin-top: 2em;
+    text-align: center;
+}
+
+.fourcol {
+    padding-top: 2em;
+}
+
+/*button styling*/
+.thanks { 
+    display: flex; 
+    justify-content: left; 
+}
+.button {
+    border-style: none;
+    background-color: white;
+    font-size: 6pt;
+}
+
+
+/*making the footer*/
+.footer {
+    background-color: lightblue;
+    margin-top: 2em;
+}
+
+
+@media (min-width: 769px) {
+    .footer,
+	.links {
+		display: flex;
+    }
+
+	.footer {
+		flex-direction: column;
+		align-items: center;
+    }
+    .links a {
+        padding: 10px 15px;
+    }
+}
+
+@media (min-width: 1025px) {
+    
+    .footer {
+		flex-direction: row;
+		justify-content: space-between;
+    }
+    .links a {
+        padding: 10px 15px;
+    }
+}
+
+/*Main-Nav Styling BASE*/
+
+.copyright {
+	font-size: 1.20em;
+    margin: 0;
+}
+.links a {
+        font-size: .85em;
+}
+   
+.copyright,
+.links a {
+    text-align: center;
+    display: block;
+    padding: 10px 15px;
+}
+.main-nav {
+    padding-left: 0;
+}
