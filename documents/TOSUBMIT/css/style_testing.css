@@ -88,7 +88,7 @@ img {
     padding-left: 0;
 }
 
-/*Title/Title Picture Styling */
+/*Title/SubTitle Picture Styling */
 .ttp {
     text-align: center;
 	background: lightblue;
@@ -171,10 +171,6 @@ width: 150px;
   }
 
   
-
-/*changing two 'parent' images to be side by side*/
-
-
 
 
 /*changing four 'kids' images to be side by side*/
@@ -351,7 +347,7 @@ width: 150px;
     }
 }
 
-*/
+
 /*Main-Nav Styling BASE*/
 
 .copyright {

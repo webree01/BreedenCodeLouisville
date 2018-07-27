@@ -26,7 +26,11 @@ img {
 	.header {
 		flex-direction: column;
 		align-items: center;
-	}
+    }
+    .main-nav a {
+        font-size: .85em;
+        padding: 5px 5px;
+        }
 }
 
 @media (min-width: 1025px) {
@@ -110,11 +114,11 @@ img {
     .brown {
         flex: 1;
     }
-
+/*
     .brown {
         padding-right: 5em;
     }
-
+*/
 
     .lincoln {
         padding-left: 20px;
@@ -136,17 +140,17 @@ img {
     }
     .brown {
         display: flex;
-        margin-right: 2em;
         margin-top: 2em;
     }  
     .fourcol {
         flex: 1;
     }
-    
+    /*
     .fourcol img {
         padding-left: 50%;
         padding-right: 50%;
     }
+    */
 }
 
 .allimages {
@@ -172,17 +176,7 @@ img {
     padding-top: 2em;
 }
 
-/*base styling for last two images*/
 
-.kids-images {
-    margin-right: 2em;
-    margin-top: 2em;
-    text-align: center;
-}
-
-.fourcol {
-    padding-top: 2em;
-}
 
 /*button styling*/
 .thanks { 
